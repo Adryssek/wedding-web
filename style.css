@@ -1,3 +1,22 @@
+body {
+    font-family: 'Poppins';
+    background-image: url("Pictures/background2.png");
+    background-color: rgb(255, 231, 244);
+    max-width: 500px;
+    margin: auto;
+}
+/*{font-family: "Raleway", sans-serif} from ws3 template */ 
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("/w3images/wedding_couple.jpg")}
+.bgimg2 {background-image: url("/w3images/flowers.jpg")}
+
+
 #map { 
     height: 300px;
     width: 600px;
@@ -9,4 +28,55 @@
 
 #map-icon { 
     height: 50;
+}
+.galerie {
+    text-align: center;
+
+}
+.dresscode {
+    text-align: center;
+    font-weight: 400;
+}
+.Dress {
+    height: 60px;
+}
+
+.duleziteOsoby {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.osoba {
+    height: 100px;
+    width: 180px; 
+    border: 2px dotted black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
+.DuleziteOsobyNadpis {
+    text-align: center;
+    
+}
+
+.occupation {
+    color: firebrick;
+}
+
+
+.number {
+    color: firebrick;
+}
+
+.menu {
+    height: 400px;
+    width: 800px;
+    border: 4px double yellow;
+}
+.svatebniMenu {
+    text-align: center;
+}
+.drink {
+    height: 60px;
 }
