@@ -1,25 +1,37 @@
 body {
     font-family: 'Poppins';
     background-image: url("Pictures/background2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgb(255, 231, 244);
     max-width: 500px;
     margin: auto;
 }
-/*{font-family: "Raleway", sans-serif} from ws3 template */ 
+/*{font-family: "Raleway", sans-serif} from ws3 template  */
 body, html {height: 100%}
 p {line-height: 2}
-.bgimg, .bgimg2 {
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
+h1 {
+    text-align: center;
 }
-.bgimg {background-image: url("/w3images/wedding_couple.jpg")}
-.bgimg2 {background-image: url("/w3images/flowers.jpg")}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.stickytop {
+    text-align:left;
+    position: sticky;
+    top:0
+}
 
-
-#map { 
+#map {
+   /* margin-left: auto;
+    margin-right: auto;
+    width: 60%; */
     height: 300px;
     width: 600px;
+
 }
 
 #icon { 
