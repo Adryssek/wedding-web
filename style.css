@@ -4,12 +4,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(255, 231, 244);
-    max-width: 500px;
-    margin: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 /*{font-family: "Raleway", sans-serif} from ws3 template  */
-body, html {height: 100%}
-p {line-height: 2}
+
 h1 {
     text-align: center;
 }
@@ -22,7 +22,14 @@ h3 {
 .stickytop {
     text-align:left;
     position: sticky;
-    top:0
+    top:0;
+    padding-left: 50px;
+    background-color: #FBD9CD;
+    border-bottom: 1px solid black;
+}
+
+.stickytop p {
+    margin-bottom: 0;
 }
 
 #map {
@@ -50,6 +57,11 @@ h3 {
     font-weight: 400;
 }
 .Dress {
+    height: 50px;
+    text-align: center;
+}
+
+.car {
     height: 60px;
 }
 
@@ -82,13 +94,94 @@ h3 {
 }
 
 .menu {
-    height: 400px;
-    width: 800px;
-    border: 4px double yellow;
+    width: 100%;
+    border: 4px double #faad91fd;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 .svatebniMenu {
     text-align: center;
 }
 .drink {
     height: 60px;
+}
+
+.about-villa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.address {
+    line-height: 1.25;
+    text-align: center;
+    margin-top: 0;
+    color: black;
+}
+
+.address-link {
+    text-decoration: none;
+    color:#faad91fd;
+}
+
+.body-wrapper {
+    max-width: 700px;
+    margin: auto;
+    height: fit-content;
+}
+
+.header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    aspect-ratio: 2940/2100;
+    background-image: url('Pictures/FlowerBackground.jpeg');
+    border-bottom: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.header p {
+    line-height: 1.5px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .header-background {
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doprava {
+    text-align:justify;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.ubytovani {
+    text-align:justify;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.dary-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dary-container td {
+    padding-inline: 10px;
+}
+.dary {
+    text-align: center;
 }

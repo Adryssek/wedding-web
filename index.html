@@ -14,47 +14,71 @@
     <div class="stickytop">
     <p>Adriana & Tomáš</p>
     </div>
-    <div> <!--Main header, add picture for background-->
-    <h1>Zveme Vás na naši svatbu</h1>
-    <h3>Sobota 19. srpna 2023</h3>
+    <div class="header"> <!--Main header, add picture for background-->
+      <h1>Zveme Vás na naši svatbu</h1>
+      <h3>Sobota 19. srpna 2023</h3>
     </div>    
-    <div>
+    <div class="body-wrapper">
+    <div class="about-villa">
         <h1>Kde to bude?</h1>
         <img id='icon'src="Pictures/villa-svgrepo.svg" alt="Villa icon">
         <h2>Obřad i hostina proběhnou ve Ville Lanna</h2>
-        <a href="https://goo.gl/maps/LeDZW3FzJYKzH3sG9" target="_blank"><img id='map-icon' src="Pictures/map-svgrepo.svg"></a>
+        <a class="address-link" href="https://goo.gl/maps/LeDZW3FzJYKzH3sG9" target="_blank">
+          <p class="address">V Sadech 1<br> 160 00 Praha 6</p>
+        </a>
         <div id="map"></div>
+        <!-- <a href="https://goo.gl/maps/LeDZW3FzJYKzH3sG9" target="_blank"><img id='map-icon' src="Pictures/map-svgrepo.svg"></a> -->
     </div>
-    <div> <!--Style next to each other-->
+  <div class="container">
+    <div class="doprava"> <!--Style next to each other-->
       <h1>Doprava</h1>
-      <h3>Tady bude nějaké info haha</h3>
+      <img src="Pictures/car-sports.svg" class='car'>
+      <p>Na místě bude určitě několik parkovacích míst a v okolí Villy se dá zaparkovat na modrých zónách. Případně se dá zaparkovat na <a class="address-link" href="https://goo.gl/maps/XB6x4HmZr9DG7vn86" target="_blank">parkovišti Letná</a>, odkud zajistíme převoz autem či lze dojít 15 minut pěšky. Na odvoz domů budeme mít k dispozici řidiče či po Praze bez problémů jezdí Uber. </p>
       </div> 
-    <div> <!--Style next to each other-->
+      <div class="ubytovani"> <!--Style next to each other-->
       <h1>Ubytování</h1>
-      <h3>More info to write oops</h3>
+      <img src="Pictures/bed.svg" class='Dress'>
+      <p>Ve Ville je možné zajistit ubytování v omezeném počtu a případně je možné přespat i u nás v bytě. Pokud byste měli o přespání zájem, dejte nám vědět a určitě se domluvíme.</p>
       </div>
-      <script src="script.js"></script>
-      <div class="galerie">
-        <h1 class=nadpisGalerie>Naše galerie</h1>
-        <br>
-        <br>
-         <p class="text">zde můžete vložit společné fotografie</p>
-     </div>
+    </div>
      <br>
-     <div class="dresscode">
+     <div class="dary">
+      <h1>Svatební dary</h1>
+    <div class="dary-container">
+      <table>
+        <tr>
+          <td>
+            <img src="Pictures/envelope-svgrepo-com.svg" class='Dress'>
+          </td>
+          <td>
+            <img src="Pictures/gift-svgrepo-com.svg" class='Dress'>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="Pictures/check-small-svgrepo-com.svg" class='Dress'>
+          </td>
+          <td>
+            <img src="Pictures/cross-small-svgrepo-com.svg" class='Dress'>
+          </td>
+        </tr>
+      </table>
+    </div> 
+      <p>Se svatebními dary si nemusíte lámat hlavu. Pokud si nekdo nemůže pomoci, přijímáme pouze hotovost, nemovitosti a personál do domácnosti.</p>
+      </div>
+     <!-- <div class="dresscode">
         <h1>Dress Code </h1>
        <img src="Pictures/dress-stylish-svgrepo-com.svg" alt="femaleDress" class='Dress'>
        <img src='Pictures/vest-suit-svgrepo-com.svg' alt="Mdress" class='Dress'>
          <br>
          <br>
           <p class='dressCodeText'>Popiste jake obleceni by si meli hoste vzit na sebe a klidne pridejte ilustracni fotky pro predstavu</p>
-     </div>
-     <br>
+     </div> -->
+     <!-- <br>
      <h1 class='DuleziteOsobyNadpis'> Důležité osoby</h1>
      <br>
      <br>
-       <div class="osobyoto">
-           
+       <div class="osobyoto"> 
        </div>
     
       <div class="duleziteOsoby">
@@ -78,24 +102,29 @@
           </div>
       </div>
      <br>
-     <br>
+     <br> -->
      
-      <div class="program">
+      <!-- <div class="program">
          <h1>Svatebni program</h1>
           <p>bude delat Tom</p>
-      </div>
+      </div> -->
       
       <div class="menu">
           <h1 class='svatebniMenu'>Svatební menu</h1>
-          <p> polevka                      </p>  
-          <hr>  
-          <p> obed</p>
-          <hr>
-          <p>raut</p>
-          <hr>
-          <p> napoje</p> 
-           <hr>
-      <img src="Pictures/party-liqueur-svgrepo-com.svg" alt="" class='drink'>
+          <img src="Pictures/stemware-svgrepo-com.svg" class='dress'>
+          <h2>Oběd</h2>
+          <p>PRAŽSKÁ ŠUNKA, křenový krém, medové jablko</p>  
+           
+          <p>HOVĚZÍ VÝVAR, játrové knedlíčky, domácí nudle</p>
+          
+          <p>SVÍČKOVÁ NA SMETANĚ, karlovarský knedlík, brusinky</p>
+          <h2>Večeře</h2>
+          <p>Venkovní grilování</p> 
+         
+          <h2>Nápoje</h2>
+          <p>Otevřený bar s nealkem, pivem, vínem a vybranými drinky.</p>
         </div>
-
+      </div>
+      
+      <script src="script.js"></script>
 </body>
